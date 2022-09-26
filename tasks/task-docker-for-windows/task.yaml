@@ -18,5 +18,3 @@ command: |
   echo "i am windows"
   date /t
   ver
-  cd C:\\data
-  dir
