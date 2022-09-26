@@ -1,0 +1,22 @@
+name: task-docker-for-windows
+description: Running docker task using windows container
+supported-os:
+- windows
+container:
+  image: Dockerfile
+  entrypoint:
+    - cmd.exe
+    - /c
+  volumes:
+    - "{{ component_path.absolute() }}:C:\\data"
+requirements-check:
+  docker:
+    check-command: docker --version
+    info: docker is not installed
+command: |
+  @echo off
+  echo "i am windows"
+  date /t
+  ver
+  cd C:\\data
+  dir
