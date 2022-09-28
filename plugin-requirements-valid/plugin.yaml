@@ -15,5 +15,5 @@ technologies: # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/
 types:
   - app
 requirements:
-  - stacklifecycle-oscli-test-catalog/stacklifecycle-oscli-test-app
-  - stacklifecycle-oscli-test-catalog/stacklifecycle-oscli-test-plugin
+  - stacklifecycle-oscli-test-catalog/template-test
+  - stacklifecycle-oscli-test-catalog/plugin-test
